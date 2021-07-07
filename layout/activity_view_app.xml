@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/ptop"
+        android:background="@color/cardview_shadow_start_color"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment = "center"
+        android:textColor="@color/black"
+        android:paddingTop="25dp"
+        android:text="List Of Appointments: " />
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment = "center"
+        android:textColor="@color/black"
+        android:paddingTop="25dp"
+        android:text="Record ID   |   Doctor ID   |   Symptom   |   Prescription "
+        android:layout_below="@+id/ptop"/>
+    <TextView
+        android:id="@+id/listd"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment = "center"
+        android:textColor="@color/black"
+        android:paddingTop="25dp"
+        android:layout_below="@+id/top"
+        />
+
+
+
+</RelativeLayout>

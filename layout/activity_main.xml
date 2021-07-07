@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/patlogin"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="90dp"
+        android:text="Patient Login" />
+
+    <Button
+        android:id="@+id/patreg"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/patlogin"
+        android:layout_marginTop="17dp"
+        android:text="Patient Registration" />
+
+    <Button
+        android:id="@+id/doclogin"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/patreg"
+        android:layout_marginTop="160dp"
+        android:text="Doctor Login" />
+
+    <Button
+        android:id="@+id/docreg"
+        android:layout_width="400dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/doclogin"
+        android:layout_marginTop="17dp"
+        android:text="Doctor Registration" />
+
+<!--    <Button-->
+<!--        android:id="@+id/doclogin"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/patreg"-->
+<!--        android:layout_marginTop="160dp"-->
+<!--        android:text="Doctor Login" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/docreg"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/doclogin"-->
+<!--        android:layout_marginTop="17dp"-->
+<!--        android:text="Doctor Registration" />-->
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".HealthTrackerActivity">
+
+    <EditText
+        android:id="@+id/bp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Blood Pressure"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/oxy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Oxygen"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/bp"/>
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/oxy"/>
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/weight"/>
+
+
+    <Button
+        android:id="@+id/btnaddtracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Tracker Info"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/height"/>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".PatientRegActivity">
+
+    <EditText
+        android:id="@+id/patient_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_margin="5dp" />
+
+    <EditText
+        android:id="@+id/patient_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_first_name" />
+
+    <EditText
+        android:id="@+id/patient_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_last_name" />
+
+    <EditText
+        android:id="@+id/patient_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_age" />
+
+    <EditText
+        android:id="@+id/patient_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Street"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_gender" />
+
+    <EditText
+        android:id="@+id/patient_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_street" />
+
+    <EditText
+        android:id="@+id/patient_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="State"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_city" />
+
+    <EditText
+        android:id="@+id/patient_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PIN"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_state" />
+
+    <EditText
+        android:id="@+id/patient_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/patient_pin" />
+
+    <Button
+        android:id="@+id/btn_patient_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patient_password"
+        android:layout_margin="5dp"
+        android:text="Register Patient" />
+
+</RelativeLayout>

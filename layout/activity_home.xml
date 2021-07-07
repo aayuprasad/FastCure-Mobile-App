@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    xmlns:app="http://schemas.android.com/apk/res-auto"    xmlns:tools="http://schemas.android.com/tools"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".HomeActivity"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/addtracker"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:text="Add Health Tracker" />
+
+    <Button
+        android:id="@+id/viewtracker"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/addtracker"
+        android:layout_marginTop="17dp"
+        android:text="View Health Tracker" />
+
+    <Button
+        android:id="@+id/addapp"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/viewtracker"
+        android:layout_marginTop="17dp"
+        android:text="Add Appointment" />
+    <Button
+        android:id="@+id/viewapp"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/addapp"
+        android:layout_marginTop="17dp"
+        android:text="View Past Appointments" />
+    <Button
+        android:id="@+id/viewdoc"
+        android:layout_width="400dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/viewapp"
+        android:layout_marginTop="17dp"
+        android:text="List of Doctors" />
+    <Button
+        android:id="@+id/btn_patient_logout"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/viewdoc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="Logout"
+        android:textAlignment="center" />
+<!--    <Button-->
+<!--        android:id="@+id/btn_logout"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="75dp"-->
+<!--        android:layout_below="@+id/viewtracker"-->
+<!--        android:layout_marginTop="17dp"-->
+<!--        android:text="Logout" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/doclogin"-->
+    <!--        android:layout_width="400dp"-->
+    <!--        android:layout_height="75dp"-->
+    <!--        android:layout_below="@+id/patreg"-->
+    <!--        android:layout_marginTop="160dp"-->
+    <!--        android:text="Doctor Login" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/docreg"-->
+    <!--        android:layout_width="400dp"-->
+    <!--        android:layout_height="75dp"-->
+    <!--        android:layout_below="@+id/doclogin"-->
+    <!--        android:layout_marginTop="17dp"-->
+    <!--        android:text="Doctor Registration" />-->
+
+</RelativeLayout>
